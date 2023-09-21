@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Whyte;
+    font-style: normal;
+    src: url("../fonts/WhyteInktrap-Super.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Purplepurse;
+    font-style: normal;
+    src: url("../fonts/PurplePurse-Regular.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Tiempose;
+    font-style: normal;
+    src: url("../fonts/Tiempos\ Fine\ Medium.ttf");
+    font-display: swap;
+  }
