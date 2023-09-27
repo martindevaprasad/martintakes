@@ -72,9 +72,9 @@ export const MyProject = () => {
           Projects
         </h4>
       </div>
-      <div className="d-flex ">
+      <div className="row justify-content-center ">
         {data.map((item,index)=>(
-        <Card key={index} className="mx-3" sx={{ maxWidth: 345, background: "#000", color: "#FDA3FF" }}>
+        <Card key={index} className="mx-3 mb-3" sx={{ maxWidth: 345, background: "#000", color: "#FDA3FF" }}>
           <CardHeader  sx={{color: "#FDA3FF", "& .css-83ijpv-MuiTypography-root":{
             color:"#FDA3FF"
           } }}

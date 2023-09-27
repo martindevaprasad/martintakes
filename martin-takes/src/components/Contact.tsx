@@ -4,6 +4,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === "dark" ? "#000" : "#000",
 //   ...theme.typography.body2,
@@ -68,7 +69,7 @@ export const Request = () => {
         <form onSubmit={handleSubmit} className="p-3 col-md-6">
          
           <div className="form-group">
-            <label>Full Name</label>
+            <label className="text-muted">Full Name</label>
             <input
               type="text"
               className="form-control"
@@ -79,7 +80,7 @@ export const Request = () => {
             />
           </div>
           <div className="form-group">
-            <label>Tell me</label>
+            <label className="text-muted">Tell me</label>
             <input
               type="text"
               className="form-control"
@@ -90,7 +91,7 @@ export const Request = () => {
             />
           </div>
           <div className="form-group">
-            <label>Email address</label>
+            <label className="text-muted">Email address</label>
             <input
               type="email"
               className="form-control"
@@ -102,7 +103,7 @@ export const Request = () => {
               onChange={handleChange}
             />
             <small id="emailHelp" className="form-text text-muted">
-              We'll never share your email with anyone else.
+              I'll never share your email with anyone else.
             </small>
           </div>
          
@@ -122,8 +123,9 @@ export const Request = () => {
             style={{
               background:
                 "linear-gradient(99deg, #FCD1D1 8.35%, #FDA3FF 20.91%, #D1F1FF 40.19%, #C6C1FF 50.55%)",
-              color: "#fff",
-              border: "none"
+                color: "#000",
+                border: "none",
+                fontWeight:"700"
             }}
             className="btn mt-3"
           >
