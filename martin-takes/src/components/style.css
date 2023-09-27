@@ -37,6 +37,15 @@ background-clip: text;
   color: #FDA3FF;
 }
 
+
+.logo {
+  font-size: 64px;
+ 
+  background: linear-gradient(99deg, #FCD1D1 8.35%, #FDA3FF 20.91%, #D1F1FF 40.19%, #C6C1FF 50.55%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .aboutsec{
   background:#0a0a0a;
 

@@ -2,7 +2,7 @@ import "./style.css";
 
 import "../assets/fonts/font.css";
 import Marquee from "react-fast-marquee";
-import rular from "../assets/formbg 1.png";
+
 
 import { MyProject } from "./MyProject";
 import { About } from "./About";

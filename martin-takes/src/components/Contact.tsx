@@ -3,7 +3,7 @@ import "./style.css";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import rular from "../assets/formbg 1.png";
+
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === "dark" ? "#000" : "#000",
 //   ...theme.typography.body2,
