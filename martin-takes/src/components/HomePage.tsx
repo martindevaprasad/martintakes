@@ -69,6 +69,20 @@ export const HomePage = () => {
       <section className="projectsec">
         <About />
       </section>
+      <section>
+      <div className="text-center mb-4">
+        <h4
+          style={{
+            fontFamily: "Gloock",
+            fontSize: "32px",
+            fontWeight: "600",
+            color: "#C6C1FF"
+          }}
+        >
+          Download My Resume
+        </h4>
+      </div>
+      </section>
 
       <section className="aboutsec">
        <Request/>
