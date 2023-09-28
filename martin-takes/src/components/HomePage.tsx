@@ -8,11 +8,12 @@ import { About } from "./About";
 import { Request } from "./Contact";
 export const HomePage = () => {
   return (
+  
     <>
     <AnimatedCursor
-          innerSize={15}
-          outerSize={30}
-          color='193, 11, 111'
+          innerSize={10}
+          outerSize={20}
+          color='198, 193, 255'
           outerAlpha={0.2}
           innerScale={0.7}
           outerScale={5}
@@ -42,7 +43,7 @@ export const HomePage = () => {
               I’m Martin
               <br /> Frontend Developer..!
             </h1>
-            <h4 className="subtitle mx-5">
+            <h4 className="subtitle mx-3">
               while also showcasing my creativity as a Designer.
             </h4>
           </div>

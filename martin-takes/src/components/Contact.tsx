@@ -3,7 +3,7 @@ import "./style.css";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import rural from "../assets/formbg 1.png"
 
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === "dark" ? "#000" : "#000",
@@ -53,7 +53,7 @@ export const Request = () => {
   };
   return (
     <>
-     <div style={{backgroundImage:'url(${rular})'}} className="text-center mb-4">
+     <div style={{ backgroundImage: `url(${rural})` }} className="text-center mb-4">
         <h4
           style={{
             fontFamily: "Gloock",
